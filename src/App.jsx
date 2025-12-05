@@ -12,6 +12,7 @@ import Categories from './pages/Categories'
 import Products from './pages/Products'
 import Category from './pages/Category'
 import Auth from './pages/Auth'
+import { Icon } from "lucide-react";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         </div>
       </main>
       <Footer />
+   
     </BrowserRouter>
   )
 }

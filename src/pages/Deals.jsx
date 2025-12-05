@@ -11,7 +11,7 @@ export default function Deals() {
       title: 'Summer Sale',
       description: 'Get up to 50% off on selected items',
       discount: '50% OFF',
-      image: 'https://via.placeholder.com/400',
+      image: '../../public/images/1.webp',
       validUntil: '2024-12-31',
     },
     {
@@ -19,7 +19,7 @@ export default function Deals() {
       title: 'Flash Deal',
       description: 'Limited time offer - ends soon!',
       discount: '30% OFF',
-      image: 'https://via.placeholder.com/400',
+      image: '../../public/images/1.webp',
       validUntil: '2024-12-25',
     },
     {
@@ -27,7 +27,7 @@ export default function Deals() {
       title: 'New Arrivals',
       description: 'Check out our latest products',
       discount: '20% OFF',
-      image: 'https://via.placeholder.com/400',
+      image: '../../public/images/1.webp',
       validUntil: '2024-12-30',
     },
     {
@@ -35,7 +35,7 @@ export default function Deals() {
       title: 'Bundle Deal',
       description: 'Buy more, save more',
       discount: '40% OFF',
-      image: 'https://via.placeholder.com/400',
+      image: '../../public/images/1.webp',
       validUntil: '2024-12-28',
     },
   ]

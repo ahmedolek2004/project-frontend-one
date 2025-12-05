@@ -12,10 +12,10 @@ export default function Footer() {
   ]
 
   const socials = [
-    { href: '#', label: 'Facebook', Icon: Facebook },
-    { href: '#', label: 'Instagram', Icon: Instagram },
-    { href: '#', label: 'Twitter', Icon: Twitter },
-    { href: 'mailto:contact@example.com', label: 'Email', Icon: Mail },
+    { href: 'https://www.facebook.com/ahmed.abdelhlem.9615', label: 'Facebook', Icon: Facebook },
+    { href: 'https://www.instagram.com/ahmedabdelhalimolek?igsh=NXZ2a2pnbmNnaDF0', label: 'Instagram', Icon: Instagram },
+    { href: 'https://x.com/AhmedAbdelhle10', label: 'Twitter', Icon: Twitter },
+    { href: 'ahmedolek2004@gmail.com', label: 'Email', Icon: Mail },
   ]
 
   return (
@@ -61,7 +61,7 @@ export default function Footer() {
               ))}
             </div>
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Shop. All rights reserved.
+              © {new Date().getFullYear()} Shop. All rights reserved by team plan B.
             </p>
           </div>
         </div>

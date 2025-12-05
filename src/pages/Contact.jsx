@@ -32,19 +32,19 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      content: 'contact@example.com',
-      link: 'mailto:contact@example.com',
+      content: 'ahmedolek2004@gmail.com',
+      link: 'mailto:ahmedolek2004@gmail.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      content: '+20 100 8349 894',
+      link: 'tel:+20 100 8349 894',
     },
     {
       icon: MapPin,
       title: 'Address',
-      content: '123 Main Street, City, State 12345',
+      content: 'Alex.',
       link: null,
     },
   ]
@@ -93,7 +93,7 @@ export default function Contact() {
           <CardHeader>
             <CardTitle>Send us a Message</CardTitle>
             <CardDescription>
-              Fill out the form below and we'll get back to you as soon as possible.
+              Write your suggestions or any problems.
             </CardDescription>
           </CardHeader>
           <CardContent>

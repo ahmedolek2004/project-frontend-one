@@ -10,14 +10,17 @@ export default function Products() {
 
   // Sample products
   const allProducts = [
-    { id: 'p1', name: 'Product 1', price: 99.99, image: 'https://via.placeholder.com/300', category: 'electronics' },
-    { id: 'p2', name: 'Product 2', price: 149.99, image: 'https://via.placeholder.com/300', category: 'fashion' },
-    { id: 'p3', name: 'Product 3', price: 79.99, image: 'https://via.placeholder.com/300', category: 'electronics' },
-    { id: 'p4', name: 'Product 4', price: 199.99, image: 'https://via.placeholder.com/300', category: 'home' },
-    { id: 'p5', name: 'Product 5', price: 129.99, image: 'https://via.placeholder.com/300', category: 'fashion' },
-    { id: 'p6', name: 'Product 6', price: 89.99, image: 'https://via.placeholder.com/300', category: 'sports' },
-    { id: 'p7', name: 'Product 7', price: 159.99, image: 'https://via.placeholder.com/300', category: 'electronics' },
-    { id: 'p8', name: 'Product 8', price: 69.99, image: 'https://via.placeholder.com/300', category: 'home' },
+    { id: 'p1', name: 'Product 1', price: 99.99, image: '../public/images/1.webp', category: 'electronics' },
+    { id: 'p2', name: 'Product 2', price: 149.99, image: '../../public/images/1.webp', category: 'fashion' },
+    { id: 'p3', name: 'Product 3', price: 79.99, image: '../../public/images/1.webp', category: 'electronics' },
+    { id: 'p4', name: 'Product 4', price: 199.99, image: '../../public/images/1.webp', category: 'home' },
+    { id: 'p5', name: 'Product 5', price: 129.99, image: '../../public/images/1.webp', category: 'fashion' },
+    { id: 'p6', name: 'Product 6', price: 89.99, image: '../../public/images/1.webp', category: 'sports' },
+    { id: 'p7', name: 'Product 7', price: 159.99, image: '../../public/images/1.webp', category: 'electronics' },
+    { id: 'p8', name: 'Product 8', price: 69.99, image: '../../public/images/1.webp', category: 'Outdoors' },
+    { id: 'p9', name: 'Product 9', price: 88.99, image: '../../public/images/1.webp', category: 'Toys ' },
+    { id: 'p10', name: 'Product 10', price: 79.99, image: '../../public/images/1.webp', category: 'Games' },
+    { id: 'p11', name: 'Product 11', price: 99.99, image: '../../public/images/1.webp', category: 'Books' },
   ]
 
   // If viewing a specific product

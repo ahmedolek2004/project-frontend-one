@@ -7,8 +7,8 @@ import { Trash2, ShoppingCart, ArrowRight } from 'lucide-react'
 export default function Cart() {
   // Sample cart items - in a real app, this would come from state/context
   const cartItems = [
-    { id: '1', name: 'Product 1', price: 99.99, quantity: 2, image: 'https://via.placeholder.com/100' },
-    { id: '2', name: 'Product 2', price: 149.99, quantity: 1, image: 'https://via.placeholder.com/100' },
+    { id: '1', name: 'Product 1', price: 99.99, quantity: 2, image: '../../public/images/1.webp' },
+    { id: '2', name: 'Product 2', price: 149.99, quantity: 1, image: '../../public/images/1.webp' },
   ]
 
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0)
