@@ -16,7 +16,7 @@ export default function Home() {
     
     <div className="space-y-12">
       {/* Hero Section */}
-      <section className="relative overflow-hidden rounded-lg bg-gradient-to-r from-primary/10 via-primary/5 to-background p-8 md:p-12 lg:p-16">
+      <section className="relative overflow-hidden rounded-lg bg-liner-to-r from-primary/10 via-primary/5 to-background p-8 md:p-12 lg:p-16">
         <div className="container mx-auto">
           <div className="flex flex-col items-center text-center space-y-6">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">

@@ -44,7 +44,7 @@ export default function Cart() {
             <Card key={item.id}>
               <CardContent className="p-4">
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <div className="w-full sm:w-24 h-24 bg-muted rounded-md overflow-hidden flex-shrink-0">
+                  <div className="w-full sm:w-24 h-24 bg-muted rounded-md overflow-hidden shrink-0">
                     <img
                       src={item.image}
                       alt={item.name}
