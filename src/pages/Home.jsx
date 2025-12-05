@@ -13,6 +13,7 @@ export default function Home() {
   ]
 
   return (
+    
     <div className="space-y-12">
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-lg bg-gradient-to-r from-primary/10 via-primary/5 to-background p-8 md:p-12 lg:p-16">
@@ -21,6 +22,7 @@ export default function Home() {
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               Welcome to Our Store
             </h1>
+            
             <p className="max-w-2xl text-lg text-muted-foreground sm:text-xl">
               Discover amazing products at unbeatable prices. Shop the latest trends and find everything you need.
             </p>
@@ -36,6 +38,7 @@ export default function Home() {
                   View Deals
                 </Link>
               </Button>
+              
             </div>
           </div>
         </div>
