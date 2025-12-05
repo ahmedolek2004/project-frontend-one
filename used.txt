@@ -1,0 +1,6 @@
+React + Vite
+tailwind + shadcn ui + material ui
+any hosting
+Firebase Authentication
+Firebase firestore
+
