@@ -9,12 +9,12 @@ export default function Category() {
 
   // Sample products for the category
   const products = [
-    { id: 'p1', name: 'Product 1', price: 99.99, image: 'https://via.placeholder.com/300' },
-    { id: 'p2', name: 'Product 2', price: 149.99, image: 'https://via.placeholder.com/300' },
-    { id: 'p3', name: 'Product 3', price: 79.99, image: 'https://via.placeholder.com/300' },
-    { id: 'p4', name: 'Product 4', price: 199.99, image: 'https://via.placeholder.com/300' },
-    { id: 'p5', name: 'Product 5', price: 129.99, image: 'https://via.placeholder.com/300' },
-    { id: 'p6', name: 'Product 6', price: 89.99, image: 'https://via.placeholder.com/300' },
+    { id: 'p1', name: 'Product 1', price: 99.99, image: '/images/electronics.webp' },
+    { id: 'p2', name: 'Product 2', price: 149.99, image: 'images/fashion.webp' },
+    { id: 'p3', name: 'Product 3', price: 79.99, image: '/images/Home & Garden.webp' },
+    { id: 'p4', name: 'Product 4', price: 199.99, image: '/images/Sports & Outdoors.webp' },
+    { id: 'p5', name: 'Product 5', price: 129.99, image: '/images/book.webp' },
+    { id: 'p6', name: 'Product 6', price: 89.99, image: '/images/Toys & Games.webp' },
   ]
 
   return (

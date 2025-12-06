@@ -6,10 +6,10 @@ import { ShoppingBag, TrendingUp, Star, ArrowRight } from 'lucide-react'
 
 export default function Home() {
   const featuredProducts = [
-    { id: 'p1', name: 'Product 1', price: '$99.99', image: '../../public/images/1.webp' },
-    { id: 'p2', name: 'Product 2', price: '$149.99', image: '../../public/images/1.webp' },
-    { id: 'p3', name: 'Product 3', price: '$79.99', image: '../../public/images/1.webp' },
-    { id: 'p4', name: 'Product 4', price: '$199.99', image: '../../public/images/1.webp' },
+    { id: 'p1', name: 'Product 1', price: '$99.99', image: '/images/1.webp' },
+    { id: 'p2', name: 'Product 2', price: '$149.99', image: '/images/1.webp' },
+    { id: 'p3', name: 'Product 3', price: '$79.99', image: '/images/1.webp' },
+    { id: 'p4', name: 'Product 4', price: '$199.99', image: '/images/1.webp' },
   ]
 
   return (
